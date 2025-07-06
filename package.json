@@ -5,7 +5,7 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
-    "build": "tsc -p tsconfig.json",
+    "build": "tsc --p tsconfig.build.json --listEmittedFiles --diagnostics",
     "start": "nest start",
     "start:dev": "nest start --watch",
     "start:prod": "node dist/main"
