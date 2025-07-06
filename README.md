@@ -23,7 +23,7 @@ This is the NestJS backend for the Codex Personal Knowledge Management applicati
 - pnpm (or npm/yarn)
 - Docker (for database)
 
-### Running Locally
+### Running Locally 
 
 1.  **Clone the repository:**
     ```bash
