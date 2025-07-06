@@ -17,9 +17,12 @@
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
-    "resolveJsonModule": true, /* Enables importing JSON files. Good practice. */
-    "esModuleInterop": true /* Improves compatibility between CommonJS and ES Modules. */
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "paths": {
+      "@/*": ["src/*"]
+    }
   },
-  "include": ["src/**/*"], /* Explicitly tell TypeScript to only look inside the src folder */
-  "exclude": ["node_modules", "dist"] /* Explicitly ignore these folders */
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
 }
