@@ -6,7 +6,7 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
-    "target": "ES2021",
+    "target": "es2021",
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": "./",
@@ -16,6 +16,10 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
-  }
+    "noFallthroughCasesInSwitch": false,
+    "resolveJsonModule": true, /* Enables importing JSON files. Good practice. */
+    "esModuleInterop": true /* Improves compatibility between CommonJS and ES Modules. */
+  },
+  "include": ["src/**/*"], /* Explicitly tell TypeScript to only look inside the src folder */
+  "exclude": ["node_modules", "dist"] /* Explicitly ignore these folders */
 }
