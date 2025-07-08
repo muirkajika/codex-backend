@@ -1,4 +1,4 @@
-# Codex Backend - Starter Project
+# Codex Backend - Starter Project 
 
 This is the NestJS backend for the Codex Personal Knowledge Management application. It's designed to be run as a Docker container and provides the core API for managing notebooks, notes, and bookmarks.
 
